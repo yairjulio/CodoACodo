@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Colores */
+/* Propiedades de texto */
+body {
+  background-color: #dff2ff;
+}
+
+header, article, section {
+  width: 100%;
+}
+
+/* NavBar */
+.ItemNavbar:hover {
+  background-color: #0854a0;
+}
+
+.BarraNavegacion {
+  background-color: #9dc1df;
+}
+
+.nav-link {
+  color: #0854a0;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+/* Manejo de Imagenes e Iconos */
+.ImagenNumeros, .LogoClientes, .ImagenServicios {
+  transition: all 400ms ease;
+}
+
+.ImagenNumeros:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4%);
+}
+
+.icono {
+  padding: 10px;
+}
+
+.caption {
+  overflow: hidden;
+}
+
+.fas {
+  font-size: 28px;
+  color: #0854a0;
+}
+
+input {
+  width: 50%;
+}
+
+/* Manejo de Textos */
+.titulo {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  size: 25px;
+  color: midnightblue;
+}
+
+.texto__footer, .texto__index, .texto__footer--small, h4 {
+  font-family: "Open Sans", sans-serif;
+  color: midnightblue;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.texto__footer--small {
+  font-size: 12px;
+}
+
+.texto__index {
+  font-weight: normal;
+  padding-bottom: 25px;
+}
+
+label, h5 {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  size: 20px;
+  color: midnightblue;
+}
+
+/* Seccion Index */
+.galeria {
+  margin: 100px;
+}
+
+/* Seccion Footer */
+footer {
+  background-color: #b4d2eb;
+  margin: 0 !important;
+}
+
+.footer__icons {
+  width: 30px;
+  padding: 5px;
+}
+
+body {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
